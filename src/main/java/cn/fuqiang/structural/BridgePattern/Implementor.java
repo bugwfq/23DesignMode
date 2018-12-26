@@ -1,7 +1,7 @@
 package cn.fuqiang.structural.BridgePattern;
 
 /**
- * 实现化(Implementor)角色  行为实现类接口（Abstraction接口定义了基于Implementor接口的更高层次的操作）
+ * 实现化(Implementor)角色 ： 行为实现类接口（Abstraction接口定义了基于Implementor接口的更高层次的操作）
  * @Author: 王福强
  * @Date: Created in 17:22 2018/10/23
  * @Email: bugwfq@163.com
