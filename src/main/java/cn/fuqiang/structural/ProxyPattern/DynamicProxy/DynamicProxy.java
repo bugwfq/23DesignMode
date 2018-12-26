@@ -4,7 +4,10 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
+<<<<<<< HEAD
  * 动态代理
+=======
+>>>>>>> 71230477f8a1762f86ecb630561d9da8ce25dc62
  * @Author: 王福强
  * @Date: Created in 16:35 2018/9/26
  * @Email: bugwfq@163.com
