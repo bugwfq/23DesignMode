@@ -41,7 +41,7 @@ public class Student implements Cloneable{
 	public Student clone() {
 		Object obj = null;
 		try {
-		  obj = super.clone();
+			obj = super.clone();
 		} catch (CloneNotSupportedException e) {
 			e.printStackTrace();
 		}

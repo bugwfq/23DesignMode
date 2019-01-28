@@ -23,11 +23,13 @@ public class WIProduce {
     private Long id;
     private String name;
     private int level;
-
-    public WIProduce(Long id, String name, int level) {
+    private User user;
+    public WIProduce(Long id, String name, int level,long userId, String userName, int userAge, String userAddr) {
         this.id = id;
         this.name = name;
         this.level = level;
+        //其他方式参考第三点
+        this.user = new User(userId,userName,userAge,userAddr);
     }
 
     public Long getId() {
@@ -40,5 +42,18 @@ public class WIProduce {
 
     public int getLevel() {
         return level;
+    }
+
+    public long getUserId(){
+        return this.user.getId();
+    }
+    public String getUserName(){
+        return this.user.getName();
+    }
+    public int getUserAge(){
+        return this.user.getAge();
+    }
+    public String getUserAddr(){
+        return this.user.getAddr();
     }
 }
